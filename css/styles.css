@@ -484,8 +484,8 @@ p {
 
 .clients-link:hover,
 .clients-link:focus,
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -708,7 +708,6 @@ p {
 }
 
 .examples-link:hover,
-.photo:hover,
 .examples-link:focus {
   color: var(--another-title-color);
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
